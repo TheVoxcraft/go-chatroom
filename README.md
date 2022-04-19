@@ -15,10 +15,10 @@ Simple TCP chatroom written in Go.
 ## Usage
 * Change the `IP` (default: localhost) and `PORT` constants to match your server
 * Run the server:
-    $ go run main.go
+   ```bash
+   $ go run main.go
+   ```
 * Connect to the server:
+    ```bash
     $ nc localhost 8080
-* Using commands:
-    $ /help
-    $ /list
-    $ /log
+    ```
