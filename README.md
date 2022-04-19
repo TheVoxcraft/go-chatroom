@@ -18,6 +18,10 @@ Simple TCP chatroom written in Go.
    ```bash
    $ go run main.go
    ```
+* Build the server:
+   ```bash
+   $ go build main.go
+   ```
 * Connect to the server:
     ```bash
     $ nc localhost 8080
